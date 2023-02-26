@@ -87,7 +87,7 @@ class OrientSocket {
 
             $x = @socket_connect( $this->_socket, $this->hostname, $this->port );
 
-            if ( ! is_resource( $this->_socket ) || $x === false ) {
+            if ( ! is_object( $this->_socket ) || $x === false ) {
                 throw new SocketException ( $this->getErr() . PHP_EOL );
             }
 
