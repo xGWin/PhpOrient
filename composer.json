@@ -1,7 +1,7 @@
 {
     "name": "gwin/phporient",
     "description": "PHPOrient is a good php driver based on the binary protocol of OrientDB.",
-    "version": "v1.3.1",
+    "version": "v1.3.2",
     "keywords": [
         "orientdb",
         "orient db",
@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=8.1.0",
-        "psr/log": "3.0"
+        "psr/log": "^3.0"
     },
     "repositories": [
         {
